@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+
+<!-- HEAD -->
+
+<head>
+    <%- include(`${__path.views_index}/elements/head`) %>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <%- include(`${__path.views_index}/elements/navbar`) %>
+
+    <!-- CONTENT -->
+    <div class="container">
+        <!-- MAIN CONTENT -->
+        <div class="row mt-3">
+            <div class="col-12">
+                <%- body %>
+            </div>
+        </div>
+    </div>
+</body>
+
+<!-- SCRIPTS -->
+<%- include(`${__path.views_index}/elements/scripts`) %>
+
+</html>
