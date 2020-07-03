@@ -21,11 +21,11 @@ global.__helper = require(`${__path.helper}/helper`);
 //useUnifiedTopology: true
 //});
 
-var db = mongoose.connection;
-db.on('error', console.error.bind(console, 'connection error:'));
-db.once('open', function () {
-    console.log('db connected ==||=========>>\n');
-});
+//var db = mongoose.connection;
+//db.on('error', console.error.bind(console, 'connection error:'));
+//db.once('open', function () {
+    //console.log('db connected ==||=========>>\n');
+//});
 
 // view engine setup
 app.set('views', __path.views);
